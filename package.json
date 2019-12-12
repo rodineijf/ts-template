@@ -4,9 +4,19 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ts-node": "^8.5.0",
-    "tslint": "^5.20.1",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.7.2"
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "import-sort-style-module": "^6.0.0",
+    "prettier-plugin-import-sort": "^0.0.3",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "importSort": {
+    ".js, .ts": {
+      "style": "module",
+      "parser": "typescript"
+    }
   }
 }
